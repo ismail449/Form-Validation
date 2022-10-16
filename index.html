@@ -28,6 +28,7 @@
             minlength="3"
             maxlength="100"
             required
+            name="fullname"
           />
         </div>
         <!-- Phone Number -->
@@ -39,6 +40,7 @@
             placeholder="555-555-555"
             pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
             required
+            name="phone"
           />
         </div>
         <!-- Email Address -->
@@ -49,6 +51,7 @@
             id="email"
             placeholder="email@address.com"
             required
+            name="email"
           />
         </div>
         <!-- website url -->
@@ -59,6 +62,7 @@
             id="website"
             placeholder="http://www.website.com"
             required
+            name="website"
           />
         </div>
         <!-- Password -->
@@ -71,6 +75,7 @@
             pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
             title="Please inclue at least 1 uppercase character, 1 lowercase character and 1 number"
             required
+            name="password"
           />
         </div>
         <!-- confirm password -->
@@ -84,7 +89,7 @@
             required
           />
         </div>
-        <button type="submit">Submit</button>
+        <button type="submit">Register</button>
       </form>
       <!-- Error/Success Message -->
       <div class="message-container">
